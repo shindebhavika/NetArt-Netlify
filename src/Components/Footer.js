@@ -10,7 +10,7 @@ function Footer() {
         <div className="flex flex-wrap justify-between items-center footer-content">
           <div className='foo'>
             <div className='inline-block p-1 rounded-full bg-white  mr-1'>
-            <a href="">  <IoCall size={30} className='text-red-500' /></a>
+          <IoCall size={30} className='text-red-500' />
             </div>
             Toll free 1800 200 1234
           </div>

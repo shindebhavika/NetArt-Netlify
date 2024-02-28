@@ -23,11 +23,11 @@ body {
   font-size: 'Poppins';
   line-height: 1.6;
   font-size: 1rem;
-  /* background-color: "#FFFFB7" !important; */
+
   background: rgb(254, 254, 234) ;
   background: linear-gradient(180deg, rgba(254, 254, 234, 1) 0%, rgba(255, 255, 183, 1) 54%) ;
 
-  /* background-color: red; */
+
 }
 
 .hrline {
@@ -38,9 +38,6 @@ margin-left: 0;
 margin-right: 0;
 }
 
-.main-container {
-  /* background-color: #FFFFB7; */
-}
 
 .tropyimg {
   background-color: rgba(255, 255, 183, 0);
@@ -48,16 +45,13 @@ margin-right: 0;
 
 .service span {
   margin-left: 8px;
-  /* Adjust as needed for space before span */
+ 
   margin-right: 8px;
-  /* Adjust as needed for space after span */
+
   border-right: 1px solid red;
 }
 
-/* .service span{
-  border-right: 1px solid red;
 
-} */
 .tropyimg{
   height: 100%;
   width: 100%;
@@ -92,6 +86,7 @@ body{
 footer{
   margin-left: 0;
   margin-right: 0;
+
 
 }
 .foo{
