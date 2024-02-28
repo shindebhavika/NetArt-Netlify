@@ -24,8 +24,8 @@ body {
   line-height: 1.6;
   font-size: 1rem;
   /* background-color: "#FFFFB7" !important; */
-  background: rgb(254, 254, 234) !important;
-  background: linear-gradient(180deg, rgba(254, 254, 234, 1) 0%, rgba(255, 255, 183, 1) 54%) !important;
+  background: rgb(254, 254, 234) ;
+  background: linear-gradient(180deg, rgba(254, 254, 234, 1) 0%, rgba(255, 255, 183, 1) 54%) ;
 
   /* background-color: red; */
 }
@@ -99,5 +99,25 @@ footer{
 }
 .foo a{
   font-size: 5px;
+}
+}
+
+@media (min-width: 400px){
+body{
+  font-size: 10px;
+  background-color: red;
+}
+.herosection{
+  font-size: 10px;
+}
+.tropyimg{
+  height: 80%;
+  width: 100%;
+  margin-top: 60px;
+}
+footer{
+ height: 100px;
+ /* padding: 0; */
+
 }
 }
